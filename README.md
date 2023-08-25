@@ -1,6 +1,4 @@
-**# hamoro
-Efficient Human 3D Localization and Free Space Segmentation for Human-Aware Robots in Warehouse Facilities
-**# Efficient Human 3D Localization and Free Space Segmentation for Human-Aware Robots in Warehouse Facilities
+# Efficient Human 3D Localization and Free Space Segmentation for Human-Aware Robots in Warehouse Facilities
 
 ## 📝 About this Repository
 This repository is a placeholder. The main purpose of this repository is to provide a convenient way for reviewers and other interested parties to access our work once it's updated.
