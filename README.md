@@ -1,6 +1,6 @@
 # Efficient Human 3D Localization and Free Space Segmentation for Human-Aware Robots in Warehouse Facilities
 
-## Repository will be updated upon acceptance
+## Repository will be updated upon submitted paper acceptance!
 
 ## 📝 About this Repository
 This repository is a placeholder. The main purpose of this repository is to provide a convenient way for reviewers and other interested parties to access our work once it's updated.
