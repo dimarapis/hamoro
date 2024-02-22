@@ -1,0 +1,36 @@
+#mtl:
+  #mode: null
+  #port: null
+
+data:
+  dataset_folder : data/dimidata_train_filtered_restricted_range_300_fixed
+  test_dataset_folder : data/dimidata_test_filtered_fixed #path: dataset
+  #dataset: sim_warehouse #nyuv2, taskonomy, sim_warehouse
+  #with_noise: False #False,True
+
+network:
+  model_selection: monoloco #'monoloco''monoloco_pp','copied_monoloco','humann',monoloco_pretrained'
+  #weight: equal #equal,dwa,uncert,autol
+  #task: minimal #primtasks
+  #grad_method: graddrop #graddrop,pcgrad,cagrad,none
+  #autol_init: 1. #Changed from 0.1
+  #autol_lr: 0.0001
+  
+training:
+  batch_size : 16
+  learning_rate : 0.01
+  epochs : 300
+  show_table : False
+  save_samples : True
+  num_stage : 3
+
+  #gpu: 0
+  #optim_lr: 0.16 # 0.16 # From sim_warehouse equal sweep
+  #batch_size: 16 # 8 # From sim_warehouse equal sweep
+  #optim: sgd #sgd,adam # From sim-warehouse equal sweep
+  #weight_decay: 0.0001
+  #early_stop: False
+  #scheduler: cosineannealing #multisteplr, cosineannealing, steplr
+  #pretrained: False
+  #checkpoint_path: null
+  #epochs: 200 #Changed from 200
